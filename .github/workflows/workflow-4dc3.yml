@@ -30,7 +30,7 @@ jobs:
       working-directory: .
       run: |
         npm install
-        gulp default --gulpfile .
+        gulp default --gulpfile gulpfile.js
 
     - uses: azure/appservice-settings@v1
       with:
