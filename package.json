@@ -2,13 +2,16 @@
     "name": "my-todolist",
     "version": "0.1.0",
     "dependencies": {
-        "body-parser": "~1.10.1",
-        "cookie-session": "~1.1.0",
-        "ejs": "~2.1.4",
-        "express": "~4.11.0",
-        "gulp": "^3.9.1",
-        "gulp-zip": "^3.2.0",
-        "graceful-fs": "4.2.2"
+        "body-parser": "~1.19.0",
+        "cookie-session": "~1.4.0",
+        "ejs": "~3.1.5",
+        "express": "~4.17.1",
+        "gulp": "^4.0.2",
+        "gulp-zip": "^5.0.2",
+        "graceful-fs": "4.2.4"
+    },
+    "optionalDependencies": {
+        "fsevents": "2.1.2"
     },
     "author": "Mateo21 <mateo21@email.com>",
     "description": "A very basic to do list manager"
