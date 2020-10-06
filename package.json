@@ -7,7 +7,8 @@
         "ejs": "~2.1.4",
         "express": "~4.11.0",
         "gulp": "^3.9.1",
-        "gulp-zip": "^3.2.0"
+        "gulp-zip": "^3.2.0",
+        "graceful-fs": "4.2.2"
     },
     "author": "Mateo21 <mateo21@email.com>",
     "description": "A very basic to do list manager"
